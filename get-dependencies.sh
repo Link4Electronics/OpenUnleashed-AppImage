@@ -21,4 +21,4 @@ echo "$VERSION" > ~/version
 
 mkdir -p ./AppDir/bin
 cd ./Open-Unleashed && cargo build --release
-mv -v /target/release/open-unleashed ../AppDir/bin
+mv -v ./target/release/open-unleashed ../AppDir/bin
