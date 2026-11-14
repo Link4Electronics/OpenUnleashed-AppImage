@@ -1,4 +1,4 @@
 #!/bin/sh
-dir=$DATADIR/openunleashed
+dir=$DATADIR/PorscheUnleashed
 mkdir -p "$dir"
 cd "$dir"
