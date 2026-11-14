@@ -1,0 +1,4 @@
+#!/bin/sh
+dir=$DATADIR/openunleashed
+mkdir -p "$dir"
+cd "$dir"
