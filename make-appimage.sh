@@ -12,7 +12,7 @@ export DEPLOY_OPENGL=1
 export DEPLOY_VULKAN=1
 
 # Deploy dependencies
-quick-sharun ./AppDir/bin/OpenUnleashed
+quick-sharun ./AppDir/bin/open-unleashed
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
