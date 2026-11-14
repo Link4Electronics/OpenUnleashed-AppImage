@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=OpenUnleashed
+GenericName="An open-source reimplementation of the Need for Speed: Porsche Unleashed (2000)"
+Icon=icon
+Exec=OpenUnleashed
+StartupWMClass=
+Terminal=false
+Categories=Game;Racing;
