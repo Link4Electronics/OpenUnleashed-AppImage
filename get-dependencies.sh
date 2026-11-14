@@ -16,7 +16,9 @@ echo "Making stable build of OpenUnleashed..."
 echo "---------------------------------------------------------------"
 REPO="https://github.com/Second-Boot/Open-Unleashed"
 VERSION="$(git ls-remote --tags --sort="v:refname" "$REPO" | tail -n1 | sed 's/.*\///; s/\^{}//; s/^v//')"
-git clone --branch v"$VERSION" --single-branch --depth 1 "$REPO" ./xemu
+git clone --branch v"$VERSION" --single-branch --depth 1 "$REPO" ./Open-Unleashed
 echo "$VERSION" > ~/version
 
 mkdir -p ./AppDir/bin
+cd ./Open-Unleashed && cargo build --release open-unleashed
+mv -v /target/release/open-unleashed ../AppDir/bin
