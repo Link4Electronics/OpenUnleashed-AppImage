@@ -20,5 +20,5 @@ git clone --branch v"$VERSION" --single-branch --depth 1 "$REPO" ./Open-Unleashe
 echo "$VERSION" > ~/version
 
 mkdir -p ./AppDir/bin
-cd ./Open-Unleashed && cargo build --release open-unleashed
+cd ./Open-Unleashed && cargo build --release
 mv -v /target/release/open-unleashed ../AppDir/bin
