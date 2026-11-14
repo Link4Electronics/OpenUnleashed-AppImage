@@ -1,4 +1,4 @@
 #!/bin/sh
 dir=$DATADIR/PorscheUnleashed
-mkdir -p "$dir"
+mkdir -p "$dir"/game
 cd "$dir"
